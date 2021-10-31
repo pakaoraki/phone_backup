@@ -1,0 +1,42 @@
+###############################################################################
+#                                                                             #
+#                                 BACKUP.conf                                 #
+#                                                                             #
+###############################################################################
+
+
+# ---- Backup subfolders names ---- #
+FOLDER_CONTACTS_NAME=""
+FOLDER_MMS_SMS_NAME=""
+FOLDER_APP_NAME=""
+FOLDER_PHOTOS_NAME=""
+FOLDER_MUSIC_NAME=""
+FOLDER_FILES_NAME=""
+FOLDER_BOOKMARKS_NAME=""
+FOLDER_RINGTONES_NAME=""
+
+# ---- Backup folder ---- #
+# default: /home/$USER/Phone/BACKUP
+#PATH_BACKUP_FOLDER=""
+
+
+# ---- Backup option ---- #
+
+# List music files instead of copied them
+#list_music=true
+
+
+# ---- Restore options ---- #
+
+# Use latest backup available (skip list all backups)
+#latest=true
+
+# Force to restore non system data apps
+#no_system_apps=true
+
+# Force to restore system data apps
+#force_system_apps=true
+
+
+
+# vim: syntax=sh cc=80 tw=79 ts=4 sw=4 sts=4 et sr
